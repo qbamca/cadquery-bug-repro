@@ -4,7 +4,7 @@ import logging
 from werkzeug.utils import secure_filename
 import cadquery as cq
 
-from exceptions import FileConversionError, InvalidFileTypeError, NoFileSelectedError
+from exceptions import FileConversionError, InvalidFileTypeError
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
